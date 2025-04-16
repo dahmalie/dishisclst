@@ -67,16 +67,12 @@ $ `snakemake -n --profile pbs-trans --force <target_rule/target_file>`
 | pi    | mcl pre-inflation |
 | ip    | mcl inflation parameter  |
 
-## prerequisites
-
-- [ ] conda (URL: https://anaconda.org)
-- [ ] snakemake (URL: https://snakemake.github.io)
-- [ ] internet access
-
 ## more info
 
-e-mail-address: peter.holm@cpr.ku.dk (developer)
+e-mail-address: amalie.haue@cpr.ku.dk
 
-e-mail-address: adh@cpr.ku.dk (maintainer)
+e-mail-address: peter.holm@cpr.ku.dk
+
+
 
 
