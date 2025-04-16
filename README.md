@@ -75,8 +75,6 @@ $ `snakemake -n --profile pbs-trans --force <target_rule/target_file>`
 
 ## more info
 
-DOI: xxxxxxxxxx (article file)
-
 e-mail-address: peter.holm@cpr.ku.dk (developer)
 
 e-mail-address: adh@cpr.ku.dk (maintainer)
