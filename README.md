@@ -34,7 +34,7 @@ The repo **outputs** a file with three columns
 
 For **intermediate** steps see `dag.pdf`
 
-For an **overview** of the impact of ip on clustering see `sankey.pdf`
+For an **overview** of the impact of _ip_ on clustering see `sankey.pdf`
 
 ## to run repo
 
