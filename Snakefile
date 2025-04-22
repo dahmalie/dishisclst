@@ -171,7 +171,7 @@ rule get_cluster_memberships:
         env
     shell:
         """
-        clxdo dump_clustering {input.icl} {input.tab} > {output}
+        clxdo dump_cls {input.icl} {input.tab} > {output}
     """
 
 
