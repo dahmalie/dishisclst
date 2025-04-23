@@ -40,23 +40,23 @@ For an **overview** of the impact of _ip_ on clustering see `sankey.pdf`
 
 The repo was developed to run from a terminal with the command typed below
 
-$ `snakemake --profile pbs-trans <target_rule/target_file>`
+$ `snakemake --use-conda <target_rule/target_file>`
 
 For dry add **flag n**
 
-$ `snakemake -n --profile pbs-trans <target_rule/target_file>`
+$ `snakemake -n --use-conda <target_rule/target_file>`
 
 To execute rules with wild cards, add **flag R**
 
-$ `snakemake -n --profile pbs-trans -R <target_rule>`
+$ `snakemake -n --use-conda -R <target_rule>`
 
 To force repo execution (overwrite existing files), add **flag dash forceall**
 
-$ `snakemake --profile pbs-trans --forceall`
+$ `snakemake --use-conda --forceall`
 
 To overwrite specific files or rules, include **flag dash force**
 
-$ `snakemake -n --profile pbs-trans --force <target_rule/target_file>`
+$ `snakemake -n --use-conda --force <target_rule/target_file>`
 
 ## snakefile wildcards
 
